@@ -51,3 +51,51 @@ For a small documentation change, you may use:
 `module-4/issue-practice.md`
 
 Follow the Canvas Module 4 instructions for required evidence and submission links.
+
+Module 6
+
+# CSC-154 Task Tracker
+
+## Project Summary
+
+Briefly describe what the Task Tracker will do and who it is for.
+
+## Technology Choice
+
+**Language/Platform:** TBD
+
+Briefly explain why the team selected this technology.
+
+## MVP Features
+
+List the features required for the first usable version.
+
+- 
+- 
+- 
+
+## Improvement Ideas
+
+Ideas that could be added after the MVP is working.
+
+- 
+- 
+- 
+
+## Out of Scope
+
+Features or ideas that the team is intentionally not building during this project.
+
+- 
+- 
+
+## Definition of Done
+
+An Issue is considered complete when:
+
+- The required change has been implemented.
+- The work has been tested or verified.
+- A Pull Request has been reviewed.
+- Any requested changes have been addressed.
+- The Pull Request has been merged into `main`.
+- Relevant documentation has been updated if needed.
