@@ -30,4 +30,4 @@ For Module 3, complete your required change in:
 
 `module-3/pr-practice.md`
 
-Use your assigned turn order and follow the Pull Request workflow described in Canvas.
+Since there are only 2 of us, use any turn order and follow the Pull Request workflow described in Canvas.
