@@ -31,3 +31,23 @@ For Module 3, complete your required change in:
 `module-3/pr-practice.md`
 
 Since there are only 2 of us, use any turn order and follow the Pull Request workflow described in Canvas.
+
+## Module 4 — Issue-Driven Workflow
+
+Module 4 introduces GitHub Issues as the starting point for development work.
+
+You will:
+
+1. Create one **Feature** Issue
+2. Create one **Bug** or **Task** Issue
+3. Add clear acceptance criteria, a label, and an assignee
+4. Choose one Issue to complete
+5. Create a branch named `issue-<number>-short-name`
+6. Open a Pull Request into `main`
+7. Reference the Issue in the PR description with `Closes #<number>`, `Fixes #<number>`, or `Resolves #<number>`
+
+For a small documentation change, you may use:
+
+`module-4/issue-practice.md`
+
+Follow the Canvas Module 4 instructions for required evidence and submission links.
