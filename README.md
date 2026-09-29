@@ -52,7 +52,7 @@ For a small documentation change, you may use:
 
 Follow the Canvas Module 4 instructions for required evidence and submission links.
 
-Module 6
+# Module 6
 
 # CSC-154 Task Tracker
 
