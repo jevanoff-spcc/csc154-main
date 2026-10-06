@@ -38,3 +38,9 @@ A tracked item used to describe a feature, bug, task, or other unit of work.
 ## Student Contributions
 
 Make your approved change in the appropriate section of this file or another instructor-approved repository file.
+
+## Team Collaboration Guidelines
+
+- **Communication:** Team members should clearly communicate planned changes and provide updates when work affects shared files or project requirements.
+- **Code Review:** Changes should be reviewed by another team member before they are merged into the main branch to help identify errors and improve quality.
+- **Branch Organization:** Each task or feature should be completed on its own clearly named branch rather than making changes directly to main.
