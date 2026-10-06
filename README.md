@@ -58,44 +58,60 @@ Follow the Canvas Module 4 instructions for required evidence and submission lin
 
 ## Project Summary
 
-Briefly describe what the Task Tracker will do and who it is for.
+The CSC-154 Task Tracker is a simple command-line application that allows users to create and manage tasks. The project will provide the core functions needed to organize tasks while giving the team experience developing a shared Java application through GitHub.
 
 ## Technology Choice
 
-**Language/Platform:** TBD
+**Language/Platform:** Java command-line application (CLI)
 
-Briefly explain why the team selected this technology.
+**Storage:** Local file-based storage
 
-## MVP Features
+The team selected Java because it supports object-oriented programming and provides a straightforward way to build and organize the Task Tracker. The MVP will run entirely from the command line and store task information locally without requiring a database or internet connection.
 
-List the features required for the first usable version.
+## Milestone 1 — MVP Task Tracker
 
-- 
-- 
-- 
+The first usable version will include:
 
-## Improvement Ideas
+- Create a new task.
+- View the task list.
+- Mark a task as complete.
+- Edit an existing task.
+- Delete a task.
+- Each task will include a `title` and `status`.
+- Tasks may also include an optional `description`.
+- Save and load tasks using local file-based storage.
 
-Ideas that could be added after the MVP is working.
+## Milestone 2 — Improvements
 
-- 
-- 
-- 
+Potential improvements after the MVP is complete include:
+
+- Task priority levels.
+- Due dates.
+- Tags or categories.
+- Search and filtering.
+- Sorting tasks by status, priority, or due date.
+- Improved persistence or storage options.
+- Additional input validation and error handling.
 
 ## Out of Scope
 
-Features or ideas that the team is intentionally not building during this project.
+The following features are outside the scope of the initial project:
 
-- 
-- 
+- User accounts or login authentication.
+- Advanced user roles or permissions.
+- Mobile application development.
+- Graphical user interface or web interface.
 
 ## Definition of Done
 
-An Issue is considered complete when:
+Work is considered complete when:
 
-- The required change has been implemented.
-- The work has been tested or verified.
-- A Pull Request has been reviewed.
+- Work begins as a clearly defined GitHub Issue with acceptance criteria.
+- Development occurs on a separate branch and not directly on `main`.
+- The required feature, task, bug fix, or documentation change has been completed.
+- The Pull Request includes a **How Tested** section and **Risks/Notes**.
+- The work has been tested or otherwise verified.
+- A Pull Request has been reviewed before being merged.
 - Any requested changes have been addressed.
 - The Pull Request has been merged into `main`.
-- Relevant documentation has been updated if needed.
+- Relevant documentation has been updated when needed.
