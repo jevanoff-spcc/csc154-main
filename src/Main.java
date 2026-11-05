@@ -13,6 +13,7 @@ public class Main {
             System.out.println("2. View tasks");
             System.out.println("3. Complete task");
             System.out.println("4. Exit");
+            System.out.println("5. Search tasks");
             System.out.print("Choose an option: ");
 
             String choice = scanner.nextLine();
@@ -82,6 +83,38 @@ public class Main {
                     System.out.println("Goodbye!");
                     scanner.close();
                     return;
+
+                case "5":
+                    if (tasks.isEmpty()) {
+                        System.out.println("No tasks available to search.");
+                        break;
+                    }
+
+                    System.out.print("Enter title search term: ");
+                    String search = scanner.nextLine().trim();
+
+                    if (search.isEmpty()) {
+                        System.out.println("Search term cannot be blank.");
+                        break;
+                    }
+
+                    boolean found = false;
+
+                    for (int i = 0; i < tasks.size(); i++) {
+                        Task task = tasks.get(i);
+
+                        if (task.getTitle().toLowerCase(java.util.Locale.ROOT)
+                                .contains(search.toLowerCase(java.util.Locale.ROOT))) {
+                            System.out.printf("%d. %s [%s]%n",
+                                    i + 1, task.getTitle(), task.getStatus());
+                            found = true;
+                        }
+                    }
+
+                    if (!found) {
+                        System.out.println("No matching tasks found.");
+                    }
+                    break;
 
                 default:
                     System.out.println("Invalid option. Try again.");
