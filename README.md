@@ -1,6 +1,6 @@
-﻿# CSC-154 Software Development
+# CSC-154 Software Development
 
-Official course repository for **CSC-154 Software Development â€” Fall 2026**.
+Official course repository for **CSC-154 Software Development — Fall 2026**.
 
 This repository will be used throughout the semester to practice professional software-development workflows with Git and GitHub.
 
@@ -32,7 +32,7 @@ For Module 3, complete your required change in:
 
 Since there are only 2 of us, use any turn order and follow the Pull Request workflow described in Canvas.
 
-## Module 4 â€” Issue-Driven Workflow
+## Module 4 — Issue-Driven Workflow
 
 Module 4 introduces GitHub Issues as the starting point for development work.
 
@@ -68,7 +68,7 @@ The CSC-154 Task Tracker is a simple command-line application that allows users 
 
 The team selected Java because it supports object-oriented programming and provides a straightforward way to build and organize the Task Tracker. The MVP will run entirely from the command line and store task information locally without requiring a database or internet connection.
 
-## Milestone 1 â€” MVP Task Tracker
+## Milestone 1 — MVP Task Tracker
 
 The first usable version will include:
 
@@ -81,7 +81,7 @@ The first usable version will include:
 - Tasks may also include an optional `description`.
 - Save and load tasks using local file-based storage.
 
-## Milestone 2 â€” Improvements
+## Milestone 2 — Improvements
 
 Potential improvements after the MVP is complete include:
 
@@ -134,7 +134,7 @@ java -cp src Main
 
 The starter is intentionally minimal. MVP features should be implemented through the normal course workflow:
 
-**Issue â†’ Branch â†’ Pull Request â†’ Review â†’ Merge**
+**Issue → Branch → Pull Request → Review → Merge**
 
 ## Release Candidate Status
 
